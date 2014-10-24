@@ -233,7 +233,7 @@ def main(argv):
     Cluster.squared_criterion_values = []
     Cluster.silhouette_criterion_values = []
 
-    my_data = np.genfromtxt('/home/anton/workspace/Proj/data.csv', delimiter=',', dtype=float)
+    my_data = np.genfromtxt('./data.csv', delimiter=',', dtype=float)
     #Make only clusterization params in array
     data_list = my_data[1:].tolist()
     maximum = 0
